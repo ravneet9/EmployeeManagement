@@ -20,9 +20,7 @@ import com.employee.management.service.DepartmentService;
 
 @RestController
 public class DepartmentController {
-	
 	static final Logger logger  = LogManager.getLogger(DepartmentController.class.getName());
-	
 	@Autowired
 	private DepartmentService departmentService;
 	
