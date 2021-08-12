@@ -23,8 +23,6 @@ public class DepartmentController {
 	static final Logger logger  = LogManager.getLogger(DepartmentController.class.getName());
 	@Autowired
 	private DepartmentService departmentService;
-	
-	// displaying list of all department
 		@GetMapping("/departments")
 		public List<Department> getAllDepartment(){
 			return departmentService.getAllDepartments();
